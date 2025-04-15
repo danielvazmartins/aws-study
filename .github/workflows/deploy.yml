@@ -1,0 +1,15 @@
+name: Pipeline de build e deploy
+
+on:
+  push:
+    branches:
+      - "feature/*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hello World
+        run: |
+          echo "Testando github actions"
