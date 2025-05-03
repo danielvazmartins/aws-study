@@ -37,6 +37,6 @@ aws sts get-caller-identity
 aws iam simulate-principal-policy --policy-source-arn arn:aws:iam::940482411315:user/terraform --action-names glue:CreateJob
 ```
 
-# Referências do GitHub Actions....e
+# Referências do GitHub Actions....eee
 - https://github.com/actions/checkout
 - https://github.com/marketplace/actions/create-pull-request

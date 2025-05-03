@@ -20,8 +20,9 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "feat: add new feature"
-          base: master
-          branch: ${{ github.ref_name }}
+          #base: master
+          #branch: ${{ github.ref_name }}
+          branch: master
           draft: true
           #title: "feat: add new feature"
           #body: "feat: add new feature"
