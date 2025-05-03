@@ -26,4 +26,4 @@ jobs:
           branch: ${{ github.ref_name }}
           #delete-branch: true
           #labels: "feature"
-          reviewers: "danielvazmartins"
+          #reviewers: "danielvazmartins"
