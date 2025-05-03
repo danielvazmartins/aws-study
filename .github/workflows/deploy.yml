@@ -19,7 +19,7 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          #commit-message: "feat: add new feature"
+          commit-message: "feat: add new feature"
           #title: "feat: add new feature"
           #body: "feat: add new feature"
           #base: master
