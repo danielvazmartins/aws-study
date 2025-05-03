@@ -22,8 +22,8 @@ jobs:
           #commit-message: "feat: add new feature"
           #title: "feat: add new feature"
           #body: "feat: add new feature"
-          #base: main
-          branch: master
+          base: master
+          branch: ${{ github.ref_name }}
           #delete-branch: true
           #labels: "feature"
           #reviewers: "rafaelguilherme" # Substitua pelo seu nome de usuário do GitHub
