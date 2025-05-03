@@ -13,3 +13,5 @@ jobs:
       - name: Hello World
         run: |
           echo "Testando github actions"
+      - name: Checkout
+        uses: actions/checkout@v4
