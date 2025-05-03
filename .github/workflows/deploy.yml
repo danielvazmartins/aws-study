@@ -22,8 +22,8 @@ jobs:
           commit-message: "feat: add new feature"
           #title: "feat: add new feature"
           #body: "feat: add new feature"
-          base: master
-          #branch: master
+          #base: master
+          branch: master
           #delete-branch: true
           #labels: "feature"
           draft: true
