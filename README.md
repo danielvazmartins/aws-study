@@ -36,3 +36,7 @@ aws ecr delete-repository --repository-name nginx-app --force
 aws sts get-caller-identity
 aws iam simulate-principal-policy --policy-source-arn arn:aws:iam::940482411315:user/terraform --action-names glue:CreateJob
 ```
+
+# Referências GitHub Actions
+- https://github.com/actions/checkout
+- https://github.com/marketplace/actions/create-pull-request

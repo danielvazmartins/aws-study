@@ -15,3 +15,7 @@ jobs:
           echo "Testando github actions"
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: master
+      - name: Create PR to main
+        uses: peter-evans/create-pull-request@v7
