@@ -15,8 +15,6 @@ jobs:
           echo "Testando github actions"
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          ref: master
       - name: Create PR to main
         uses: peter-evans/create-pull-request@v7
         with:
@@ -25,7 +23,7 @@ jobs:
           #title: "feat: add new feature"
           #body: "feat: add new feature"
           #base: master
-          branch: ${{ github.ref_name }}
+          branch: master
           #delete-branch: true
           #labels: "feature"
           #reviewers: "danielvazmartins"
