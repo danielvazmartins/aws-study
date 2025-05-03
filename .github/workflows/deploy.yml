@@ -18,7 +18,7 @@ jobs:
       - name: Create PR to main
         uses: peter-evans/create-pull-request@v7
         with:
-          #token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           #commit-message: "feat: add new feature"
           #title: "feat: add new feature"
           #body: "feat: add new feature"
