@@ -23,7 +23,7 @@ jobs:
           #title: "feat: add new feature"
           #body: "feat: add new feature"
           #base: main
-          branch: main
+          branch: master
           #delete-branch: true
           #labels: "feature"
           #reviewers: "rafaelguilherme" # Substitua pelo seu nome de usuário do GitHub
