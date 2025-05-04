@@ -1,0 +1,1 @@
+https://docs.aws.amazon.com/sns/latest/dg/sns-publishing.html

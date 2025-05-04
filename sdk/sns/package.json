@@ -1,0 +1,21 @@
+{
+  "name": "sns",
+  "version": "1.0.0",
+  "description": "Projeto de Estudo usando Aws Sdk",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "sdk",
+    "javascript"
+  ],
+  "author": "Daniel Vaz Villalobos Martins",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-sns": "^3.799.0",
+    "sns": "file:"
+  }
+}
