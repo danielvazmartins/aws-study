@@ -15,4 +15,5 @@ const publishMessage = async (message, topicArn) => {
 }
 
 const response = await publishMessage(message, topicArn);
+console.log("Response: ", response);
 console.log("Message sent. Message ID: ", response.MessageId);
